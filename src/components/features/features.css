@@ -1,0 +1,57 @@
+#features{
+    margin-top: 4rem;
+
+}
+
+.services .box-container{
+    display: flex;
+    flex-wrap:wrap;
+    gap:1rem;
+    
+}
+
+.services .box-container .box{
+    flex: 1 1 25rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    overflow:hidden ;
+    margin:1rem;
+    box-shadow:0 1rem 2rem rgba(204, 198, 198, 0.1);
+    transition: transform 0.5s;
+}
+
+.services .box-container .box i{
+    padding: 1rem;
+    font-size:5rem;
+    color:#fff;
+}
+.services .box-container .box h3{
+    font-size: 1rem;
+    color:#009688 ;
+}
+.services .box-container .box p{
+    font-size: 1rem;
+    color: rgb(214, 208, 208);
+    padding:1rem 0;
+}
+
+.services .box-container .box:hover{
+    transform: translateY(-7px);
+}
+ 
+.features .heading{
+    color:#009688 ;
+    font-size:1.5rem;
+    padding-left:2rem;
+}
+
+.learn{
+    text-align: left;
+    color:#009688 ;
+
+}
+.learn span{
+    color: rgb(184, 53, 184);
+    font-weight: 800;
+}

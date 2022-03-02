@@ -1,0 +1,99 @@
+#Download{
+    margin-top:2rem;
+}
+
+.Download .share .event-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Download .events{
+    flex-basis: 50%;
+}
+.Download .events-img{
+    flex-basis: 50%;
+    margin: auto;
+   
+}
+.Download .events-img img{
+    width: 70%;
+    border-radius: 10px;
+}
+.Download .events h1{
+    text-align: left;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight:700;
+    color: #009688;
+}
+
+.Download .events-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+
+.Download .event-text p{
+    padding:0 10px;
+    text-align: initial;
+    font-size:1rem ;
+    color: #fff;
+}
+
+.Download .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:1rem 3rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background: none;
+    color:var(--black);
+    box-shadow: var(--box-shadow);
+}
+
+.Download .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    box-shadow: var(--box-shadow);
+    margin:.5rem;
+    font-size: 1rem;
+    color:var(--black);
+    border-radius: .5rem;
+}
+
+.Download .share a:hover{
+    box-shadow: var(--box-shadow-inset);
+    color:var(--green);
+}
+
+.Download .share.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:1rem 3rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background: none;
+    color:var(--black);
+    box-shadow: var(--box-shadow);
+}
+
+.Download .share.btn:hover{
+    box-shadow: var(--box-shadow-inset);
+    color:var(--green);
+}
+
+@media screen and (max-width:770px){
+    .Download .events h1{
+        font-size:2rem;
+    }
+}

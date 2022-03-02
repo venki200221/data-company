@@ -1,0 +1,80 @@
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.footer .box-container .box{
+padding: 1rem 0;
+flex: 1 1 20rem;
+}
+.footer .box-container .box h3{
+    font-size: 2rem;
+    padding: 0.7rem 0;
+    color:#058073 ;
+}
+.footer .box-container .box p{
+    font-size: 1rem;
+    padding: 0.7rem 0;
+    color:#fff ;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1rem;
+    padding: 0.7rem 0;
+    color:#009688 ;
+}
+.footer .box-container .box a i{
+    margin-right: 0.9rem;
+    font-size: 1.75rem;
+}
+
+
+.footer .box-container .box a:hover{
+    
+    text-decoration:underline ;
+    text-decoration-color:#fff;
+}
+
+.footer .credit{
+    text-align: center;
+    padding: 1rem 0.5rem;
+    margin-top:1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    border-top: 0.1rem solid rgba(255,165,0 ,.2);
+}
+
+.footer .credit span{
+    color:var(--orange);
+}
+
+.footer{
+    border-top: 0.1rem solid rgba(81, 72, 158, 0.2);
+}
+
+.h{
+margin-left:1rem;
+}
+.f1{
+    color:rgb(141, 50, 168);
+}
+
+.footer .box-container .box a .btn{
+    margin-top: 0.5rem;
+    display: inline-block;
+    padding:1rem 2rem;
+    border-radius: 20rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    background: none;
+    color:var(--black);
+    box-shadow: var(--box-shadow);
+}
+
+.footer .box-container .box a .btn:hover{
+    box-shadow: var(--box-shadow-inset);
+    color:var(--green);
+}
